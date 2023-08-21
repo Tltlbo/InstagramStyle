@@ -19,6 +19,7 @@
 		4E7F52282A92010700912D80 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F52272A92010700912D80 /* ProfileViewController.swift */; };
 		4E7F522B2A92080900912D80 /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F522A2A92080800912D80 /* ProfileDataView.swift */; };
 		4E7F522D2A9247EF00912D80 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F522C2A9247EF00912D80 /* ProfileCollectionViewCell.swift */; };
+		4E7F522F2A9392AD00912D80 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F522E2A9392AD00912D80 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4E7F52272A92010700912D80 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4E7F522A2A92080800912D80 /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
 		4E7F522C2A9247EF00912D80 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E7F522E2A9392AD00912D80 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				4E7F521F2A9106C400912D80 /* FeedViewController.swift */,
 				4E7F52212A9106D600912D80 /* FeedTableViewCell.swift */,
+				4E7F522E2A9392AD00912D80 /* UploadViewController.swift */,
 			);
 			path = FeedView;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7F52032A91038000912D80 /* AppDelegate.swift in Sources */,
+				4E7F522F2A9392AD00912D80 /* UploadViewController.swift in Sources */,
 				4E7F522D2A9247EF00912D80 /* ProfileCollectionViewCell.swift in Sources */,
 				4E7F521E2A91067800912D80 /* UIButton+.swift in Sources */,
 				4E7F52202A9106C400912D80 /* FeedViewController.swift in Sources */,
