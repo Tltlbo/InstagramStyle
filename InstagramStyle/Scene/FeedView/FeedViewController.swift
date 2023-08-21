@@ -68,7 +68,7 @@ extension FeedViewController : UIImagePickerControllerDelegate, UINavigationCont
         print(selectedImage)
         
         picker.dismiss(animated: true) { [weak self] in
-            let uploadViewController = UploadViewController()
+            let uploadViewController = UploadViewController(upLoadImage: selectedImage ?? UIImage())
             let navigationController = UINavigationController(rootViewController: uploadViewController)
             navigationController.modalPresentationStyle = .fullScreen
             
